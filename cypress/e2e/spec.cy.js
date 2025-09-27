@@ -11,7 +11,7 @@ describe('Teste  de Login', () => {
 
   })
 
-  it.only('Login com falha', () => {
+  it('Login com falha', () => {
     cy.visit('https://front.serverest.dev/login')
     cy.get('[data-testid="email"]').type('gustavo@hotmail.com')
     cy.get('[data-testid="senha"]').type('12')
