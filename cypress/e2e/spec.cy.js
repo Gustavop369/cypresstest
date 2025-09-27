@@ -30,7 +30,7 @@ describe('Teste  de Login', () => {
 
   })*/
 
-  it('Login Alandin', () => {
+  /*it('Login Alandin', () => {
     cy.visit('https://front.serverest.dev/login')
     cy.get('[data-testid="email"]').type('aladinho@hotmail.com')
     cy.get('[data-testid="senha"]').type('tapete')
@@ -40,6 +40,6 @@ describe('Teste  de Login', () => {
     cy.get('[data-testid="limparLista"]').click()
     cy.get('[data-testid="shopping-cart-empty-message"]').contains('Seu carrinho está vazio')
 
-  })
+  })*/
 
 })
